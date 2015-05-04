@@ -1,3 +1,4 @@
+/*Header*/
 * {
 	margin: 0;
 	padding: 0;
@@ -6,32 +7,87 @@
 header{
 	background-color: #212221;
 }
+
 .logo{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 1px;
 }
 
 body {
 	background-color: #d4d4d4
 }
 
-a, a:visited {
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer !important;
+/* Active Button Shit*/
+
+.button-wrapper {
+	width: 100%;
+  	margin: 300px;
+  	width: 150px;
+  	height: 400px;
+  	display: block;
+  	text-align: center;
+  	font-size: 50px;
+  	font-weight: bold;
+  	float: left;
+  	font-style: right;
+  	margin-right: 0px;
+  	margin-bottom: 80px;
+  	margin-left: 0px;
 }
 
-a:hover {
-  color: #222222;
-  text-decoration: underline;
+.about img.active{ 
+	display: none;
+}
+.about:hover img{
+	display: none;
+}
+.about:hover img.active {
+	display: block;
 }
 
+.gallery img.active{ 
+	display: none;
+}
+.gallery:hover img{
+	display: none;
+}
+.gallery:hover img.active {
+	display: block;
+}
+
+.faq img.active{ 
+	display: none;
+}
+.faq:hover img{
+	display: none;
+}
+.faq:hover img.active {
+	display: block;
+}
+
+/*Body*/
+span {
+  	width: 150px;
+  	height: 380px;
+  	display: block;
+  	text-align: center;
+  	font-size: 50px;
+  	font-weight: bold;
+  	float: right;
+  	margin-right: 30px;
+  	margin-bottom: 60px;
+}
+
+
+/*Bottom Thing*/
 .bottom{
-	height: 100%;
+	height: 50%;
 	width: 100%;
 	text-align: center;
 	background: #212221;
-	padding: 30px;
+	padding-bottom: 30px;
 	border-top: 7px solid #ffffff;
 	float: left;
 }
+
+
